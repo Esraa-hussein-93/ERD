@@ -1,0 +1,45 @@
+------------------------------ Music Case -------------------------
+
+Musician (ID , Name , street , city , phone )
+
+Album(ID, Date , Title, Musician_ID)
+
+Song(Title , Auther , Album_ID)
+
+Insturment( Name , Key)
+
+Musician_Song(M_ID,Title)
+
+Musician_Album (M_ID,I_name)
+
+
+-------------------------------Employee Case -------------------------------------
+
+Sales_Office(Num ,Loc)
+
+Employee(ID,Name , Sales_office_Num)
+
+Owner(ID,name)
+
+Property(ID, Add, City, State , Zip ,Sales_office_Num)
+
+property_owner(Percent_owned , Property_Id , Owner_id)
+
+
+----------------------------- Hospital Case ---------------------------
+
+patient (Id, Name , DOB , C_ID , ward_Id)
+
+Consultant (Id , Name )
+
+Examination(C_ID , P_ID)
+
+Drug(Code ,Rec Dosage)
+
+Drug_Brand( Code , Brand)
+
+Nurse (ID , Name , ward_ID )
+
+Giving_Drugs(Drug_Code  ,Nurse_ID, Patient_ID, Date, Time, Dosage)
+
+Ward(ID , Name )
